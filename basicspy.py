@@ -59,3 +59,6 @@ print(rs1)
 print("Count:",str.count("one"))
 str.insert(0,"zero")
 print(str)
+print(str.extend(num))
+
+
