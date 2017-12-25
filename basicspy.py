@@ -45,3 +45,17 @@ print("Union is:",set(li).union(li2))
 print(bool(set(li)&set(li2)))
 list1=list(lis)
 print(list1)
+
+#Zip functions
+num=[1,2,3]
+str=["one","two"]
+str1=["One","Two","Three"]
+res=zip(num,str)
+rs=list(res)
+print(rs)
+res1=zip(num,str1,str)
+rs1=list(res1)
+print(rs1)
+print("Count:",str.count("one"))
+str.insert(0,"zero")
+print(str)
