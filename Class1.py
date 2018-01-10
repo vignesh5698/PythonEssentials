@@ -29,7 +29,7 @@ if a=="vikki" and b == 1234:
 	x=input("Do You Want To Continue? y=YES n=NO")
 	while x1==x:
 		operation()
-		print("Do you want to continue operation..?")
+		input("Do you want to continue operation..?y=YES n=NO............\n")
 	
 else:
 	print("Invalid User:")
