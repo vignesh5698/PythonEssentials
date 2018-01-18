@@ -42,3 +42,10 @@ print(v1(5))
 
 v2=lambda x,y:x+y
 print(v2(5,1000))
+
+
+v3=lambda x,y:('Greater is Y:',y) if x<y else ('Greater is X:',x)
+print(v3(1,3))
+
+v4=lambda x,y:x if x>y else y
+print(v4(8,3))
