@@ -1,13 +1,14 @@
-def a():
-	try:
-		a=int(input("Enter number:"))
-		b=int(input("Enter Divisior:"))
-		c=a/b
-		print(c)
-	except ZeroDivisionError:
-		print("Divide by Zero Error.........")
-	except TypeError:
-		print("Type Error Buddyyy....")
-	except ImportError:
-		print("Import Errorr.....")
-a()
+class a1:
+	def __init__(self,x,y):
+		self.x=x
+		self.y=y
+	def mul(self):
+		val=self.x*self.y
+		self.test="VMVMVM"
+		print(val)
+a,b=input("Enter the Number1 and 2:").split()
+a=int(a)
+b=int(b)
+obj1=a1(a,b)
+obj1.mul()
+print(getattr(obj1,'test'))
